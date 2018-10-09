@@ -119,12 +119,16 @@ $ npm run release
 $ npm publish --access=public
 ```
 
-可能需要你自己修改的地方如下：
+重命名项目名称，首次初始化项目是需要修改名字，或者后面项目要改名时使用，需要修改`rename.js`中的`fromName`和`toName`，会自动重命名下面文件中的名字
 
 - README.md 中的信息
 - package.json 中的信息
 - config/rollup.js 中的信息
 - test/browser/index.html 中的仓库名称
+
+```bash
+$ npm run rename # 重命名命令
+```
 
 ## 贡献者列表
 [contributors](https://github.com/jsmini/base/graphs/contributors)
