@@ -132,3 +132,7 @@ $ npm run rename # 重命名命令
 - [inherits](https://github.com/jsmini/inherits)
 - [event](https://github.com/jsmini/event)
 - [console](https://github.com/jsmini/console)
+- [load](https://github.com/jsmini/load)
+- [pubsub](https://github.com/jsmini/pubsub)
+- [pubsub](https://github.com/jsmini/pubsub)
+- [md5](https://github.com/jsmini/md5)
