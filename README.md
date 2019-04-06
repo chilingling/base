@@ -7,7 +7,7 @@
 [![NPM downloads](http://img.shields.io/npm/dm/@jsmini/base.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/base)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/base.svg)](http://isitmaintained.com/project/jsmini/base "Percentage of issues still open")
 
-fork / clone this library. and then you can make a new jsmini library.
+jsmini's scaffold. fork / clone this library. and then you can create a new jsmini library.
 
 一组小而美的JS库，jsmini脚手架，fork或clone本仓库，即可搭建完成一个新的jsmini库
 
@@ -118,7 +118,7 @@ rename  project. you need to edit project name when initialize project or anytim
 ```bash
 $ npm run rename # rename command
 ```
-## 贡献者列表
+## Contributors
 [contributors](https://github.com/jsmini/base/graphs/contributors)
 
 ## CHANGELOG
