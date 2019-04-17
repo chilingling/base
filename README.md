@@ -1,11 +1,11 @@
-# [base](https://github.com/jsmini/base) 
+# [range](https://github.com/jsmini/range) 
 
-[![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/base/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/jsmini/base.svg?branch=master)](https://travis-ci.org/jsmini/base)
-[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@jsmini/base)
-[![NPM downloads](http://img.shields.io/npm/dm/@jsmini/base.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/base)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/base.svg)](http://isitmaintained.com/project/jsmini/base "Percentage of issues still open")
+[![](https://img.shields.io/badge/Powered%20by-jslib%20range-brightgreen.svg)](https://github.com/yanhaijing/jslib-range)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/range/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/jsmini/range.svg?branch=master)](https://travis-ci.org/jsmini/range)
+[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@jsmini/range)
+[![NPM downloads](http://img.shields.io/npm/dm/@jsmini/range.svg?style=flat-square)](http://www.npmtrends.com/@jsmini/range)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/jsmini/range.svg)](http://isitmaintained.com/project/jsmini/range "Percentage of issues still open")
 
 jsmini's scaffold. fork / clone this library. and then you can create a new jsmini library.
 
@@ -40,42 +40,42 @@ unit test ensure it supports the following environments.
 npm installation
 
 ```bash
-$ npm install --save @jsmini/base
+$ npm install --save @jsmini/range
 ```
 
 Node.js
 
 ```js
-var name = require('@jsmini/base').name;
+var name = require('@jsmini/range').name;
 ```
 
 webpack
 
 ```js
-import { name } from '@jsmini/base';
+import { name } from '@jsmini/range';
 ```
 
 Require.js
 
 ```js
-requirejs(['node_modules/@jsmini/base/dist/index.aio.js'], function (jsmini_base) {
-    var name = jsmini_base.name;
+requirejs(['node_modules/@jsmini/range/dist/index.aio.js'], function (jsmini_range) {
+    var name = jsmini_range.name;
 })
 ```
 
 Browser
 
 ```html
-<script src="node_modules/@jsmini/base/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/range/dist/index.aio.js"></script>
 
 <script>
-    var name = jsmini_base.name;
+    var name = jsmini_range.name;
 </script>
 ```
 
 ## Document
 
-[API](https://github.com/jsmini/base/blob/master/doc/api.md)
+[API](https://github.com/jsmini/range/blob/master/doc/api.md)
 
 ## Contributing Guide  ![PRs welcome](<https://img.shields.io/badge/PRs-welcome-brightgreen.svg>)
 when initialize, install dependencies 
@@ -119,13 +119,13 @@ rename  project. you need to edit project name when initialize project or anytim
 $ npm run rename # rename command
 ```
 ## Contributors
-[contributors](https://github.com/jsmini/base/graphs/contributors)
+[contributors](https://github.com/jsmini/range/graphs/contributors)
 
 ## CHANGELOG
-[CHANGELOG.md](https://github.com/jsmini/base/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/range/blob/master/CHANGELOG.md)
 
 ## TODO
-[TODO.md](https://github.com/jsmini/base/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/range/blob/master/TODO.md)
 
 ## who is using
 
