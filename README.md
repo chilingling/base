@@ -128,17 +128,3 @@ $ npm run rename # rename command
 [TODO.md](https://github.com/jsmini/range/blob/master/TODO.md)
 
 ## who is using
-
-- [type](https://github.com/jsmini/type)
-- [is](https://github.com/jsmini/is)
-- [inherits](https://github.com/jsmini/inherits)
-- [guid](https://github.com/jsmini/guid)
-- [clone](https://github.com/jsmini/clone)
-- [extend](https://github.com/jsmini/extend)
-- [event](https://github.com/jsmini/event)
-- [url](https://github.com/jsmini/url)
-- [querystring](https://github.com/jsmini/querystring)
-- [pubsub](https://github.com/jsmini/pubsub)
-- [load](https://github.com/jsmini/load)
-- [md5](https://github.com/jsmini/md5)
-- [console](https://github.com/jsmini/console)

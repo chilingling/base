@@ -1,7 +1,7 @@
 var expect = require('expect.js');
 
-var rangejs = require('../dist/index.js');
-var range = rangejs.range
+var range = require('../dist/index.js').range;
+// var range = rangejs.range
 // var range = require('../src/index.js');
 
 describe('unit test', function() {

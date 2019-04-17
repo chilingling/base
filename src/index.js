@@ -2,18 +2,15 @@ export function range(from, to, step) {
     let letters = 'abcdefghijklmnopqrstuvwxyz';
     letters = letters.toUpperCase() + letters + letters.toUpperCase();
     /**
-     * self  返回的结果数组
+     * res  返回的结果数组
      * isExclusive  不包含末尾字符
-     * isReversed   是否是反转
      * isNumberRange  是否是数字反转
      * index   索引
      * finalIndex  尾索引
-     * parts 分割字符的临时变量 
-     * tmp  交换的临时变量
      * 
      */
-    let self, isExclusive, isNumberRange, index, finalIndex, parts, method;
-    self = [];
+    let res, isExclusive, isNumberRange, index, finalIndex;
+    res = [];
     let args = Array.prototype.slice.call(arguments, 0);
 
     // ruby style range ? `range('a..z')` or `range('a..z', 2)`
@@ -25,7 +22,7 @@ export function range(from, to, step) {
         } else if ((/^(-\d+|\d+|[a-z]+|[A-Z]+)\.{2,3}(-\d+|\d+|[a-z]+|[A-Z]+)$/).test(args[0])) {
             isExclusive = from.indexOf('...') > -1;  // 是否包含末尾
             step = to; //  步进
-            parts = from.split(/\.{2,3}/); // 切割起始段和末尾段
+            let parts = from.split(/\.{2,3}/); // 切割起始段和末尾段
             from = parts[0];  // 起始段
             to = parts[1];   // 末尾段
         } else if ((/^[a-zA-Z]$/g).test(args[0])) {
@@ -42,7 +39,7 @@ export function range(from, to, step) {
         index = Number(from);
     } else {
         index = letters.indexOf(from);
-        method = (from == from.toLowerCase() && to == to.toUpperCase()) ? 'lastIndexOf' : 'indexOf';
+        let method = (from == from.toLowerCase() && to == to.toUpperCase()) ? 'lastIndexOf' : 'indexOf';
         finalIndex = letters[method](to);
     }
 
@@ -58,11 +55,11 @@ export function range(from, to, step) {
     }
     // console.log(index,step)
     while (length--) {
-        self.push(isNumberRange ? Number(index.toFixed(fixNum)) : letters.charAt(index));
+        res.push(isNumberRange ? Number(index.toFixed(fixNum)) : letters.charAt(index));
         index += step;
     }
-    if (isExclusive) self.pop(); // 不包含末尾元素，弹出最后一个
-    return self;
+    if (isExclusive) res.pop(); // 不包含末尾元素，弹出最后一个
+    return res;
     // range.equals = function (one, two) {
     //     return one.join() == two.join()
     // }
